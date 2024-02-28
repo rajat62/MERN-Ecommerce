@@ -1,6 +1,4 @@
 import React from 'react';
-import ProductList from './components/ProductList';
-import Filters from './components/Filters';
 import './App.css';
 import AppRouter from "./AppRouter";
 

@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  
+}
+
+.app-container {
+  display: flex;
+}
+
+.filters-container {
+  flex: 1.4;
+  padding-left: 1rem;
+  background-color: #90A699;
+}
+
+.product-list-container {
+  flex: 8.6;
+}
+
+.filters-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.filters-container>div {
+  margin-right: 20px;
+  padding-top: 1.5rem;
+  padding-left: 1rem;
+}
+
+.filters-container h2 {
+  margin-bottom: 16px;
+  font-size: 22px;
+  color: white; 
+  font-weight: 500;
+}
+
+ul {
+  padding: 0 0 2rem 0 ;
+}
+
+.list {
+  width: 80%;
+  font-size: 12px;
+  cursor: pointer;
+  list-style:none;
+  text-transform: capitalize;
+  color: rgb(44, 43, 43);
+  transition: color .1s ease-in;
+}
+.list:hover{
+  color: white;
+}
+.reset-filters{
+  color: #90A699;
+  background-color: white;
+  padding: .4rem .8rem;
+  border: none;
+  border-radius: .6rem;
+}
+.reset-filters:hover{
+  cursor: pointer;
+  border: 1.2px solid white;
+  background-color: #90A699;
+  color: white;
+}
+
+
+/* Admin Page */
+
+.admin-dashboard{
+  display: flex;
+  justify-content: space-between;
+  gap:2rem
+}
+.admin-all-products{
+  flex: 7.5;
+}
+
+.admin-products-list{
+  display:flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.admin-add-product{
+  flex: 2.5;
+  display: flex;
+  flex-direction: column;
+  gap:1.5rem
+}
+.admin-logout-btn{
+  color: white;
+  border:none;
+  border-radius: .6rem;
+  padding: .4rem .8rem;
+  background-color: rgb(217, 75, 75);
+}
+.admin-logout-btn:hover{
+  color: rgb(217, 75, 75);
+  cursor: pointer;
+  background-color: white;
+}
+.admin-product-data {
+  display: flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  gap:.6rem;
+  padding: .9rem
+}
+
+.admin-product-data input{
+  border-radius: .3rem;
+  border: none;
+  padding: .4rem;
+}
+
+.admin-add-product div{
+  background-color: rgb(233, 231, 231); 
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: .7rem;
+  border-radius: .5rem;
+}
+.admin-add-product div input{
+  border: none;
+  padding: .4rem;
+  border-radius: .3rem;
+}

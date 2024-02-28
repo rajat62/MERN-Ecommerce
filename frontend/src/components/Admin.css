@@ -1,0 +1,111 @@
+/* AdminDashboard.css */
+.main-admin-section{
+  width: 100vw;
+}
+
+.admin-navbar{
+  background-color: rgb(62, 62, 233);
+  padding: 1.2rem 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.admin-navbar h2{
+  color: white;
+}
+
+.admin-dashboard {
+    margin: 20px;
+  }
+
+
+  .products-container {
+    margin-bottom: 20px;
+  }
+  
+  .products-container h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .product-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .product-item {
+    margin-bottom: 10px;
+  }
+  
+  .product-input {
+    margin-right: 10px;
+  }
+  
+  .delete-button {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .add-product-container {
+    margin-top: 20px;
+  }
+  
+  .add-product-container h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .add-product-input {
+    margin-right: 10px;
+  }
+  
+  .add-product-button {
+    background-color: #4682b4;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  
+  .update-btn{
+    background-color: lightblue;
+    margin-bottom: .6rem;
+    border: none;
+    padding: .4rem .8rem;
+    border-radius: .5rem;
+  }
+  .update-btn:hover{
+    background-color: white;
+    color: lightblue;
+    border: 1.4px solid lightblue;
+    cursor: pointer;
+  }
+  .cancel-btn{
+    color: red;
+    border: 1.8px solid red;
+    padding: .2rem .6rem;
+    border-radius: 50%;
+  }
+  .cancel-btn:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+  }
+  .delete-btn{
+    margin-left: .8rem;
+    background-color: rgb(245, 88, 88);
+    padding: .4rem .8rem;
+    border-radius: .5rem;
+    border: none;
+    color: white;
+  }
+  .delete-btn:hover{
+    background-color: white;
+    border: 1.2px solid rgb(245, 88, 88);
+    color: rgb(245, 88, 88);
+    cursor: pointer;
+  }
